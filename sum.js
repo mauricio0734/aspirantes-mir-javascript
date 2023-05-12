@@ -1,9 +1,8 @@
 // escribe la función suma acá
 function sum(num){
-  for (let i = 0; i <= num; i++) {
-    console.log(i);
+  
+    return (num *(num + 1))/2;
     
-  }
 }
   // código de prueba
 console.log(sum(4)) // 1 + 2 + 3 + 4 = 10
